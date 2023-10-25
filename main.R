@@ -1,5 +1,6 @@
 #========== 加载包组 ===========#
 library("sf")
+library("sp")
 library("rgdal")
 library("readr")
 library("raster")
@@ -54,5 +55,6 @@ SI_chl("./output/2019chl", 2019, 12, 0.02, TRUE)
 #
 result_sst = SI_sst("./output/2019sst", 2019, 12, 0.20, FALSE)
 result_chl = SI_chl("./output/2019chl", 2019, 12, 0.02, FALSE)
+#========== 代码执行 ===========#
 
 
